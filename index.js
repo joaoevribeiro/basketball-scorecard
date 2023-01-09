@@ -15,3 +15,35 @@ let addOneGuestEl = document.getElementById("add-one-guest");
 let addTwoGuestEl = document.getElementById("add-two-guest");
 let addThreeGuestEl = document.getElementById("add-three-guest");
 let resultGuest = 0;
+
+// Adding points to HOME
+function addOneHome() {
+  resultHome += 1;
+  scoreHomeEl.textContent = resultHome;
+}
+
+function addTwoHome() {
+  resultHome += 2;
+  scoreHomeEl.textContent = resultHome;
+}
+
+function addThreeHome() {
+  resultHome += 3;
+  scoreHomeEl.textContent = resultHome;
+}
+
+// Adding points to GUEST
+function addOneGuest() {
+  resultGuest += 1;
+  scoreGuestEl.textContent = resultGuest;
+}
+
+function addTwoGuest() {
+  resultGuest += 2;
+  scoreGuestEl.textContent = resultGuest;
+}
+
+function addThreeGuest() {
+  resultGuest += 3;
+  scoreGuestEl.textContent = resultGuest;
+}
