@@ -2,7 +2,7 @@
 
 // Score
 let scoreHomeEl = document.getElementById("score-home");
-let scoreGuestEl = document.getElementById("score-guest");
+let scoreAwayEl = document.getElementById("score-away");
 
 // Home
 let addOneHomeEl = document.getElementById("add-one-home");
@@ -11,10 +11,10 @@ let addThreeHomeEl = document.getElementById("add-three-home");
 let resultHome = 0;
 
 // Guest
-let addOneGuestEl = document.getElementById("add-one-guest");
-let addTwoGuestEl = document.getElementById("add-two-guest");
-let addThreeGuestEl = document.getElementById("add-three-guest");
-let resultGuest = 0;
+let addOneAwayEl = document.getElementById("add-one-away");
+let addTwoAwayEl = document.getElementById("add-two-away");
+let addThreeAwayEl = document.getElementById("add-three-away");
+let resultAway = 0;
 
 // Adding points to HOME
 function addOneHome() {
@@ -32,18 +32,18 @@ function addThreeHome() {
   scoreHomeEl.textContent = resultHome;
 }
 
-// Adding points to GUEST
-function addOneGuest() {
-  resultGuest += 1;
-  scoreGuestEl.textContent = resultGuest;
+// Adding points to AWAY
+function addOneAway() {
+  resultAway += 1;
+  scoreAwayEl.textContent = resultAway;
 }
 
-function addTwoGuest() {
-  resultGuest += 2;
-  scoreGuestEl.textContent = resultGuest;
+function addTwoAway() {
+  resultAway += 2;
+  scoreAwayEl.textContent = resultAway;
 }
 
-function addThreeGuest() {
-  resultGuest += 3;
-  scoreGuestEl.textContent = resultGuest;
+function addThreeAway() {
+  resultAway += 3;
+  scoreAwayEl.textContent = resultAway;
 }
